@@ -1,0 +1,25 @@
+.tab {
+	background-color: rgb(241, 241, 241);
+	overflow: hidden;
+	border-width: 1px;
+	border-color: rgb(204, 204, 204);
+	border-image: initial;
+}
+.tab button {
+	width: 25%;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	outline: none;
+}
+button:hover {
+	background-color: #ddd;
+}
+button.active {
+	background-color: #ccc;
+}
